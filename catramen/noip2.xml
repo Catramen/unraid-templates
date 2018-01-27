@@ -26,6 +26,6 @@
     </Volume>
   </Data>
   <Version>563b3d58fee6</Version>
-  <Icon>https://github.com/Catramen/unraid-templates/blob/master/catramen/images/noip.png</Icon>
+  <Icon>https://raw.githubusercontent.com/Catramen/unraid-templates/master/catramen/images/noip.png</Icon>
   <ExtraParams></ExtraParams>
 </Containers>
