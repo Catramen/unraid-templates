@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Beta>False</Beta>
+  <Category>Network Services:</Category>
+  <Name>noip2</Name>
+  <Description>
+    This is the dynamic update client for noip. See https://www.noip.com/.
+  </Description>
+  <Overview>
+        This is the dynamic update client for noip.
+  </Overview>
+  <Support>http://google.com</Support>
+  <Registry>https://hub.docker.com/r/wjkcow/noip2/</Registry>
+  <GitHub>https://github.com/Catramen/noip2</GitHub>
+  <Repository>Catramen/noip2</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/noip2</HostDir>
+      <ContainerDir>/usr/local/etc</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version>78523a8616cf</Version>
+  <Icon></Icon>
+  <ExtraParams></ExtraParams>
+</Containers>
