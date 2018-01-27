@@ -12,7 +12,7 @@
   <Support>http://google.com</Support>
   <Registry>https://hub.docker.com/r/wjkcow/noip2/</Registry>
   <GitHub>https://github.com/Catramen/noip2</GitHub>
-  <Repository>Catramen/noip2</Repository>
+  <Repository>wjkcow/noip2</Repository>
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
   <Networking>
