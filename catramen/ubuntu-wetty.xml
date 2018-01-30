@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Beta>False</Beta>
+  <Category>OS:</Category>
+  <Name>ubuntu-wetty</Name>
+  <Description>
+	Ubuntu linux with wetty installed.
+  </Description>
+  <Overview>
+  	Ubuntu linux with wetty installed.
+  </Overview>
+  <Support>http://google.com</Support>
+  <Registry>https://hub.docker.com/r/wjkcow/ubuntu-wetty/</Registry>
+  <GitHub>https://github.com/Catramen/wetties</GitHub>
+  <Repository>wjkcow/ubuntu-wetty</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+  <Mode>bridge</Mode>
+    <Publish>
+    <Port>
+    <HostPort>3000</HostPort>
+    <ContainerPort>3000</ContainerPort>
+    <Protocol>tcp</Protocol>
+    </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/homes/ubuntu-wetty/</HostDir>
+      <ContainerDir>/host/</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version>0c96b61d7d78</Version>
+  <Icon>https://raw.githubusercontent.com/Catramen/unraid-templates/master/catramen/images/ubuntu-wetty.jpg</Icon>
+  <ExtraParams></ExtraParams>
+</Containers>
